@@ -49,9 +49,9 @@ If you do want to add custom properties, endpoints or additional functionality y
 
 User credentials
 
-    email: admin@admin.com
-    username: admin
-    password: Pass1234
+email: admin@admin.com
+username: admin
+password: Pass1234
 
 Deployed to Heroku
 
@@ -69,25 +69,25 @@ Home page
 
 The home page must include:
 
-    A hero banner with an image that is uploaded to Strapi. You can find this in the Home single type in the provided Strapi project.
-    A list of featured products. On Strapi products can be marked as ‘featured’. When a product is marked as ‘featured’ it should be displayed on the homepage. You can find the products in the Products collection type.
+A hero banner with an image that is uploaded to Strapi. You can find this in the Home single type in the provided Strapi project.
+A list of featured products. On Strapi products can be marked as ‘featured’. When a product is marked as ‘featured’ it should be displayed on the homepage. You can find the products in the Products collection type.
 
 Products page
 
 The products page must include:
 
-    A list of all products added to Strapi. Each product must display its title, price and image. The product should link to its products detail page.
-    A search text box. When searching (filtering), only the products that include the searched text in their title or description should be listed.
+A list of all products added to Strapi. Each product must display its title, price and image. The product should link to its products detail page.
+A search text box. When searching (filtering), only the products that include the searched text in their title or description should be listed.
 
 Product details page
 
 This page is reached by a user clicking on a product on the product list page. The product details page must include:
 
-    title
-    description
-    image
-    price
-    an add to cart button. This will toggle the product in and out of a cart array stored in local storage.
+title
+description
+image
+price
+an add to cart button. This will toggle the product in and out of a cart array stored in local storage.
 
 Cart/Basket page
 
@@ -95,10 +95,10 @@ The cart/basket page must display a list of all products added to the cart. Load
 
 Each product in the cart must display:
 
-    title
-    price
-    a link to the product view page
-    image
+title
+price
+a link to the product view page
+image
 
 After the list of products, display the total price of all the products in the cart.
 
@@ -118,8 +118,8 @@ Product images
 
 For adding/editing product images use either of these 2 methods:
 
-    Use a file upload field to upload images to Strapi, or
-    Use a text input that allows a URL to be entered. This allows an image from an external URL to be used as the product image.
+Use a file upload field to upload images to Strapi, or
+Use a text input that allows a URL to be entered. This allows an image from an external URL to be used as the product image.
 
 You can find the fields for each in Strapi. Use only one to display a product image.
 Delete existing product
@@ -139,19 +139,19 @@ It MUST be publicly hosted and accessible, you cannot submit a custom API with y
 We have created a one-click Strapi deployment to Heroku for this project. All you need is a Heroku account and a Cloudinary account, both are free.
 FAQ
 
-    You can use CSS libraries like Bootstrap.
-    Use either Sass or Styled Components for your styles. Using BEM is optional but using proper class names is important.
-    Use vanilla (regular) JavaScript for the project and split your code up using modules (imports/exports).
-    You can use small JS libraries to perform tasks such as formatting dates with Moment.js
+You can use CSS libraries like Bootstrap.
+Use either Sass or Styled Components for your styles. Using BEM is optional but using proper class names is important.
+Use vanilla (regular) JavaScript for the project and split your code up using modules (imports/exports).
+You can use small JS libraries to perform tasks such as formatting dates with Moment.js
 
 Marking criteria
 
-    All functionality in Level 1 should be implemented.
-    The design should be coherent and provide a good user experience.
-    All the customer-facing and admin pages must be fully responsive.
-    Use appropriate names for Sass classes and folders.
-    All code should be properly formatted and arranged with sensible variable and function names.
-    Use modules (imports/exports) to organise your code.
+All functionality in Level 1 should be implemented.
+The design should be coherent and provide a good user experience.
+All the customer-facing and admin pages must be fully responsive.
+Use appropriate names for Sass classes and folders.
+All code should be properly formatted and arranged with sensible variable and function names.
+Use modules (imports/exports) to organise your code.
 
 ## Built With
 

@@ -106,7 +106,6 @@ For adding/editing product images use either of these 2 methods:
 
 You can list a the tech stack that you've used over here
 
-- [HTML]
 - [SASS](https://sass-lang.com/)
 - [JavaScript](https://www.javascript.com/)
 - [Bootstrap](https://getbootstrap.com)

@@ -84,13 +84,13 @@ The admin section (apart from the log in form) should only be accessible to logg
 - Create form(s) that allow products to be added and edited.
 - The form should allow the user to toggle whether a product is featured.
 
-Product images
+###### Product images
 
 For adding/editing product images use either of these 2 methods:
 
 - Use a file upload field to upload images to Strapi, or use a text input that allows a URL to be entered. This allows an image from an external URL to be used as the product image.
 
-Delete existing product
+###### Delete existing product
 
 - Allow products to be deleted.
 - Before a product is deleted you must display a confirmation dialog.

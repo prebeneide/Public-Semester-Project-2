@@ -1,6 +1,6 @@
 # EUPHORY (SEMESTER PROJECT 2)
 
-This was our semester project 2. The goal here was to create an e-commerce website that has both customer-facing and admin sections. Both sections should be responsive and the website will be populated by a Strapi API supplied by Noroff.
+This was our semester project 2. The goal here was to create an e-commerce website that had both customer-facing and admin sections. Both sections should be responsive and the website should be populated by a Strapi API supplied by Noroff.
 
 ## Description
 
@@ -103,8 +103,6 @@ For adding/editing product images use either of these 2 methods:
 
 
 ## Built With
-
-You can list a the tech stack that you've used over here
 
 - [SASS](https://sass-lang.com/)
 - [JavaScript](https://www.javascript.com/)
